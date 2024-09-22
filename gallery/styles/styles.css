@@ -233,4 +233,5 @@ section {
 
 .gallery-image {
 	border-radius: 8px;
+	width: fit-content;
 }
