@@ -5,6 +5,7 @@
 	--bg-0: #ffffff;
 	--bg-1: #000000;
 	--bg-2: #bfbfbf;
+	--bg-3: #202020;
 	--accent-color: #0080ff;
 	--dark-accent-color: #0066cc;
 	--light-accent-color: #cce6ff;
@@ -228,7 +229,9 @@ section {
 	display: flex;
 	justify-items: left;
 	flex-wrap: wrap;
-	background-color: #00ff00;
+	background-color: var(--bg-3);
+	border-radius: 8px;
+	margin: 16px;
 	padding: 16px;
 	gap: 16px;
 }
@@ -237,4 +240,14 @@ section {
 	border-radius: 8px;
 	width: fit-content;
 	overflow: hidden;
+}
+
+a {
+	color: var(--accent-color);
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--dark-accent-color);
+	text-decoration: underline;
 }
