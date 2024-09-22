@@ -228,8 +228,6 @@ section {
 	display: flex;
 	justify-items: left;
 	flex-wrap: wrap;
-	background-color: #ff0000;
-	background-color: #0000ff;
 	background-color: #00ff00;
 	padding: 16px;
 	gap: 16px;
