@@ -229,6 +229,8 @@ section {
 	justify-items: left;
 	flex-wrap: wrap;
 	background-color: #ff0000;
+	background-color: #0000ff;
+	background-color: #00ff00;
 	padding: 16px;
 	gap: 16px;
 }
@@ -236,4 +238,5 @@ section {
 .gallery-image {
 	border-radius: 8px;
 	width: fit-content;
+	overflow: hidden;
 }
