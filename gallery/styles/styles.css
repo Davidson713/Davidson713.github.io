@@ -226,14 +226,14 @@ section {
 }
 
 .image-gallery-container {
+	margin: 16px;
+	padding: 16px;
 	display: flex;
 	justify-items: left;
 	flex-wrap: wrap;
+	gap: 16px;
 	background-color: var(--bg-3);
 	border-radius: 8px;
-	margin: 16px;
-	padding: 16px;
-	gap: 16px;
 }
 
 .gallery-image {
