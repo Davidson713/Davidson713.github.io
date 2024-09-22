@@ -226,6 +226,7 @@ section {
 
 .image-gallery-container {
 	display: flex;
+	justify-items: left;
 	flex-wrap: wrap;
 	padding: 16px;
 	gap: 16px;
