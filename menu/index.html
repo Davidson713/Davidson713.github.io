@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A menu for a restaurant.">
+    <meta name="keywords" content="Menu, Menus, Food, Restaurants, Restaurant">
+    <meta name="author" content="Ruben">
+    <title>Restaurant Menu</title>
+</head>
+<style>
+    .menubg {
+        /*Unused/scrapped*/
+        opacity: 0.4;
+    }
+
+    .menubf {
+        background-image: url("assets/breakfast_bg.jpg");
+        background-repeat: repeat-y repeat-x;
+        background-size: 900px;
+        background-position-x: left;
+        background-position-y: top center;
+    }
+
+    .menul {
+        background-image: url("assets/lunch_bg.jpg");
+        background-repeat: repeat-y repeat-x;
+        background-size: 900px;
+        background-position-x: center left;
+        background-position-y: center bottom;
+    }
+
+    .menud {
+        background-image: url("assets/dinner_bg.jpg");
+        background-repeat: repeat-y repeat-x;
+        background-size: 900px;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .menu-content {
+        font-size: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .menu-content-dessert {
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    hr {
+        border: 1px dashed black;
+        border-radius: 2px;
+    }
+</style>
+
+<body>
+    <div class="menubf"
+        style="width: 400px; height:550px; padding:20px; background-color:#e0f1f4; margin:20px; border-style:solid;">
+        <div class="menu-content">
+            <h2>BREAKFAST</h2>
+            <p>Rye Egg Sandwich....&cent;90</p>
+            <p>3 Homemade Flapjack Pancakes....&#36;1.20</p>
+            <p>3 Homemade Waffles....&#36;1.30</p>
+            <p>Breakfast of Champions <br><i>(2 eggs, 4 pancakes or waffles, and grilled bacon)</i>....&#36;5.99</p>
+        </div>
+    </div>
+    <div class="menul"
+        style="width: 400px; height:550px; padding:20px; background-color:#e0f1f4; margin:20px; border-style:solid;">
+        <div class="menu-content">
+            <h2>LUNCH</h2>
+            <p>Homemade Grilled Chicken Noodle Soup....&cent;50</p>
+            <p>Baked Potato....&#36;2.00</p>
+            <p>Grilled Chicken with Steamed Broccoli....&#36;6.00</p>
+            <p>Grilled River Salmon with Boiled Carrots....&#36;6.99</p>
+        </div>
+    </div>
+    <div class="menud"
+        style="width: 400px; height:550px; padding:20px; background-color:#e0f1f4; margin:20px; border-style:solid;">
+        <div class="menu-content">
+            <h2>DINNER</h2>
+            <p>Sirloin Steak with Homemade Mashed Potatoes....&#36;10.00</p>
+            <p>Grilled Catfish Dinner....&#36;10.99</p>
+            <p>Broiled Chicken Breast with Mixed Veggies....&#36;10.99</p>
+            <p>Baked Cod with Potato Wedges....&#36;12.00</p>
+            <div class="menu-content-dessert">
+                <hr>
+                <h3>DESSERT</h3>
+                <p>Apple Pie....&#36;1.20</p>
+                <p>Peach Cobbler....&#36;1.50</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
