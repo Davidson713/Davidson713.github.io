@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+
+.title {
+    text-align: center;
+    margin: 20px 0;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+.title h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card {
+    background-color: #fff;
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+    text-align: center;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.question {
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 20px;
+    color: #333;
+}
+
+.answer {
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #007BFF;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+    transition: bottom 0.4s ease-in-out;
+}
+
+.card:hover .answer {
+    bottom: 0;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
